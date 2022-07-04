@@ -4,10 +4,8 @@ html, body {
     user-select: none;
     /*font-family: FZQINGKEYUESONG_GB;*/
     font-size: 20px;
-    max-width: 80rem;
     height: 100%;
     overflow: auto;
-    user-select: none;
 }
 html{
     background-color: #c00100;
@@ -15,4 +13,13 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
+}
+body {
+    -webkit-text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
 }
