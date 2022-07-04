@@ -1,0 +1,14 @@
+html, body {
+    -moz-user-select: one;
+    -webkit-user-select: none;
+    user-select: none;
+    /*font-family: FZQINGKEYUESONG_GB;*/
+    font-size: 20px;
+    max-width: 80rem;
+    height: 100%;
+    overflow: auto;
+    user-select: none;
+}
+html{
+    background-image: url("../src/img/background.png");
+}
