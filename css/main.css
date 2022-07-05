@@ -55,14 +55,14 @@ body {
 }
 #tittle-img{
     width: 100%;
-    height: 41%;
     background-image: url("../src/img/tittle.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    background-position: center;
 }
 #tittle-label-img{
     width: 62%;
-    height: 15%;
+    height: 49%;
     background-image: url("../src/img/label.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -87,7 +87,7 @@ body {
 #tittle-text-img1{
     background-image: url("../src/img/zddw.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     width: 27.7%;
     height: 30%;
     position: absolute;
@@ -96,7 +96,7 @@ body {
 #tittle-text-img2{
     background-image: url("../src/img/zbdw.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
     width: 27.7%;
     height: 27.5%;
     position: absolute;
