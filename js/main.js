@@ -18,7 +18,7 @@
             WeixinJSBridge.invoke('setFontSizeCallback', { 'fontSize' : 0 });
         });
     }
-  })();
+})();
   
 // 禁止双击放大
 var lastTouchEnd = 0;
