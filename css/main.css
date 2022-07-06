@@ -107,20 +107,37 @@ body {
     width: 20%;
     height: 16%;
     bottom: 7.15%;
+    left: 10%;
     position: absolute;
-    border-radius: 60px;
+    border-radius: 1000000px;
     border-style:solid;
     border-color: aliceblue;
     border-width: 5px;
 }
 .next-ico-arrow{
+    animation-name: arrow-mov;
+    animation-duration: 1.8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
     width: 60%;
-    padding-bottom: 55%;
-    margin: 18%;
+    padding-bottom: 56%;
     height: 0;
     border-bottom: 5px solid aliceblue;
     border-right: 5px solid aliceblue;
     transform:rotate(55deg) skew(20deg);
-    top: 50%;
+    bottom: 40%;
+    left:17%;
     position: absolute;
+}
+@-webkit-keyframes arrow-mov{
+    0% {transform:rotate(55deg) skew(20deg) translateY(0) translateX(0rem);opacity: 0;}
+    40% {transform:rotate(55deg) skew(20deg) translateY(40%) translateX(40%);opacity: 1;}
+    80% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 1;}
+    100% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 0;}
+}
+@keyframes arrow-mov{
+    0% {transform:rotate(55deg) skew(20deg) translateY(0) translateX(0rem);opacity: 0;}
+    40% {transform:rotate(55deg) skew(20deg) translateY(40%) translateX(40%);opacity: 1;}
+    80% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 1;}
+    100% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 0;}
 }
