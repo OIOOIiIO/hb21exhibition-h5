@@ -83,7 +83,7 @@ body {
     width: 100%;
     height: 50%;
     position: absolute;
-    top: 52%;
+    top: 50%;
 }
 #tittle-text-img1{
     background-image: url("../src/img/zddw.png");
@@ -102,4 +102,25 @@ body {
     height: 27.5%;
     position: absolute;
     bottom: 14.3%;
+}
+.next-ico-border{
+    width: 20%;
+    height: 16%;
+    bottom: 7.15%;
+    position: absolute;
+    border-radius: 60px;
+    border-style:solid;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+.next-ico-arrow{
+    width: 60%;
+    padding-bottom: 60%;
+    margin: 18%;
+    height: 0;
+    border-bottom: 5px solid aliceblue;
+    border-right: 5px solid aliceblue;
+    transform:rotate(55deg) skew(20deg);
+    top: 50%;
+    position: absolute;
 }

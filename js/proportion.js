@@ -1,3 +1,4 @@
+//封面cover对屏幕变化的自适应
 var proportion_widen = function(){
     var bodyWidth = document.body.clientWidth;
     var bodyHeight = document.body.clientHeight;
@@ -29,3 +30,4 @@ window.onresize = function(){
     proportion_widen();
     proportion_narrow();
 }
+
