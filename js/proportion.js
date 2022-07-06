@@ -15,7 +15,7 @@ var proportion_widen = function(){
 var proportion_narrow = function(){
     var bodyWidth = document.body.clientWidth;
     var bodyHeight = document.body.clientHeight;
-    console.log(bodyWidth);
+    //console.log(bodyWidth);
     if(bodyWidth/bodyHeight <= 0.5623)
     {
         document.getElementById("cover").removeAttribute("style");
