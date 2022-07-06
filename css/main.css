@@ -99,7 +99,7 @@ body {
     border-radius: 20rem;
     border-style:solid;
     border-color: aliceblue;
-    border-width: 5px;
+    border-width: 0.3vw;
     position: absolute;
 }
 .next-ico-arrow-unity{
@@ -119,8 +119,8 @@ body {
     animation-duration: 1.8s;
     animation-iteration-count:infinite;
     animation-timing-function:linear;
-    border-bottom: 0.25rem solid aliceblue;
-    border-right: 0.25rem solid aliceblue;
+    border-bottom: 0.3vw solid aliceblue;
+    border-right: 0.3vw solid aliceblue;
     transform:rotate(55deg) skew(20deg);
     bottom: 40%;
 }
@@ -149,15 +149,31 @@ body {
     right: 50%;
 }
 
+/* 简介页 */
+#intro-btn{
+    width: 100%;
+    height: 17.7%;
+}
 .next-ico-border-pre{
     padding-bottom: 20%;
     height: 0;
 }
 .next-ico-arrow-pre{
-    border-top: 0.25rem solid aliceblue;
-    border-left: 0.25rem solid aliceblue;
+    border-top: 0.3vw solid aliceblue;
+    border-left: 0.3vw solid aliceblue;
     transform:rotate(55deg) skew(20deg);
     top: 35%;
+}
+.next-ico-border-min{
+    padding-bottom: 20%;
+    height: 0;
+    bottom: 0;
+}
+.next-ico-arrow-min{
+    border-bottom: 0.3vw solid aliceblue;
+    border-right: 0.3vw solid aliceblue;
+    transform:rotate(55deg) skew(20deg);
+    bottom: 35%;
 }
 #tittle-img-min{
     background-image: url("../src/img/tittle.png");
@@ -176,6 +192,7 @@ body {
     position: absolute;
     bottom: 7.15%;
 }
+/* 简介页 结束 */
 /* 第二部分 结束 */
 
 /* 第三部分（右侧） */
