@@ -346,11 +346,25 @@ body {
     position: absolute;
     top: 40%;
 }
+#slide-ico{
+    width: 10%;
+    height: 8%;
+    left: 10%;
+    bottom: 7.15%;
+    background-image: url('../src/img/slide.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
 #cpt-chart-text{
     background-image: url('../src/img/cpt-chart-text.png');
 }
 #awa-chart-text{
     background-image: url('../src/img/awa-chart-text.png');
+}
+#terr-chart-text{
+    background-image: url('../src/img/terr-chart-text.png');
 }
 #cpt-chart{
     background-image: url('../src/img/cpt-chart.png');
