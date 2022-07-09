@@ -19,9 +19,19 @@ body {
     margin: 0;
 }
 ::-webkit-scrollbar{display:none;}
-@keyframes fade-in{
+@keyframes fade-in-1{
     from {opacity: 0;}
     to {opacity: 1;}
+}
+.fade-in-1{
+    animation: fade-in-1 1s ease 0s 1 normal forwards;
+}
+@keyframes fade-in-2{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.fade-in-2{
+    animation: fade-in-1 1s ease 0s 1 normal forwards;
 }
 
 /* 封面各元素属性 */
@@ -43,7 +53,6 @@ body {
 /* 第一部分（左侧） */
 #cover-part1{
     /* background-color: #dfc6c6; */
-    animation: fade-in 1s ease 0s 1 normal forwards;
     width: 25%;
     height: 100%;
     position: absolute;
@@ -86,7 +95,6 @@ body {
 /* 第二部分（中间） */
 #cover-part2{
     /* background-color: #0e973c; */
-    animation: fade-in 1s ease 0s 1 normal forwards;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -189,7 +197,6 @@ body {
 /* 第三部分（右侧） */
 #cover-part3{
     /* background-color: #0013c0; */
-    animation: fade-in 1s ease 0s 1 normal forwards;
     width: 25%;
     height: 100%;
     position: absolute;
