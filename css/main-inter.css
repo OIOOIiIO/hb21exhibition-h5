@@ -1,0 +1,559 @@
+html, body {
+    -moz-user-select: one;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 20px;
+    height: 100%;
+    overflow: auto;
+}
+html{
+    background-color: #a40501;
+}
+body {
+    -webkit-text-size-adjust: 100% !important;
+    -moz-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+::-webkit-scrollbar{display:none;}
+@keyframes fade-in{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.fade-in{
+    animation: fade-in 1s ease 0s 1 normal forwards;
+}
+
+/* 封面各元素属性 */
+#container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://allall02.baidupcs.com/file/a8ac87876o14acf80b196e2a141ca0cd?bkt=en-2a4ba40c42c88fabb8c01d0b2f52cca236d8dd4cc94f3ab2952d2bb0475b8f911c8d290e63eee84762e408d8d15ba0b9ceae12dccdf4a17b0f1f632bb225ea44&fid=3712110986-250528-483003521084205&time=1657452037&sign=FDTAXUbGERLQlBHSKfWqi-DCb740ccc5511e5e8fedcff06b081203-KBHs4Uvtu9Sc5aZt7xSCQWhpszQ%3D&to=80&size=205988&sta_dx=205988&sta_cs=1&sta_ft=png&sta_ct=0&sta_mt=0&fm2=MH%2CYangquan%2CAnywhere%2C%2C%E6%B2%B3%E5%8C%97%2Ccnc&ctime=1657451132&mtime=1657451132&resv0=0&resv1=0&resv2=rlim&resv3=5&resv4=205988&vuk=3712110986&iv=0&htype=&randtype=&tkbind_id=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-8198e54c85d99f0699c1c7ec3a37aa1184aa78e0e013e83bd0062dfaf26008cab065487bd04c18a39ac861cc8e7cf9b474569faee8f431ec305a5e1275657320&sl=68616270&expires=8h&rt=pr&r=752781372&vbdid=3366925214&fin=background.png&fn=background.png&rtype=1&dp-logid=9037015512348657689&dp-callid=0.1&hps=1&tsl=200&csl=200&fsl=0&csign=iCeE3hu5ec7KwHqtCc8Xg6WIlPc%3D&so=0&ut=6&uter=4&serv=0&uc=3234104118&ti=643d9844218956621e7884d1b568c5b73ff611ee4e0c69ad305a5e1275657320&hflag=30&from_type=1&adg=c_4448f6305f9f70b543628c93f8cf1641&reqlabel=250528_f_0d379c25691f1db02fd2dff786ffd19a_-1_e575750a3c4aa01749b9e79faa454520&by=themis");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+.cover-indent{
+    position: absolute;
+    top: 9%;
+    width: 100%;
+    height: 41%;
+}
+/* 第一部分（左侧） */
+#cover-part1{
+    /* background-color: #dfc6c6; */
+    width: 25%;
+    height: 100%;
+    position: absolute;
+}
+.tittle-part1-left-indent{
+    position: absolute;
+    left: 36%;
+}
+#tittle-bar-img{
+    background-color: #fff;
+    width: 0.1rem;
+    height: 100%;
+}
+#tittle-text-img{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+}
+#tittle-text-img1{
+    background-image: url("https://allall02.baidupcs.com/file/33747a3a9lc7bb4b9eed6c8ba0ef88ea?bkt=en-40ebf341379bd9a0703cd182c5273abed88ad5da73ebe0d6a04188a2066e6c61dd1d789f2f589664bda14547415c2fe68fe446f200b226cff86af4d5575f4f37&fid=3712110986-250528-646336203619493&time=1657452153&sign=FDTAXUbGERLQlBHSKfWqi-DCb740ccc5511e5e8fedcff06b081203-qk9pRmpAAVIAHBeVahiRYDTjYes%3D&to=80&size=9165&sta_dx=9165&sta_cs=1&sta_ft=png&sta_ct=0&sta_mt=0&fm2=MH%2CBaoding%2CAnywhere%2C%2C%E6%B2%B3%E5%8C%97%2Ccnc&ctime=1657451134&mtime=1657451134&resv0=0&resv1=0&resv2=rlim&resv3=5&resv4=9165&vuk=3712110986&iv=0&htype=&randtype=&tkbind_id=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-b28f6f5804ace3ff34ec26231a6b7b8ade18c616f43fda9beb100c74f6a57cc641c707e16e31c571a64b9a5d753abd228ef79a7c158da566305a5e1275657320&sl=68616270&expires=8h&rt=pr&r=544417481&vbdid=3366925214&fin=zddw.png&fn=zddw.png&rtype=1&dp-logid=9037046596776424297&dp-callid=0.1&hps=1&tsl=200&csl=200&fsl=0&csign=iCeE3hu5ec7KwHqtCc8Xg6WIlPc%3D&so=0&ut=6&uter=4&serv=0&uc=3234104118&ti=497b2742088ef3a3de9110eea347733a2980e0727b4bf579&hflag=30&from_type=1&adg=c_4448f6305f9f70b543628c93f8cf1641&reqlabel=250528_f_0d379c25691f1db02fd2dff786ffd19a_-1_e575750a3c4aa01749b9e79faa454520&by=themis");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27.7%;
+    height: 30%;
+    position: absolute;
+    top: 22.4%;
+}
+#tittle-text-img2{
+    background-image: url("https://allall02.baidupcs.com/file/84e67d4b6vb343a2e32210187a6c1d42?bkt=en-2a4ba40c42c88fab8a145d49cdf1ccae59a7ead302b55f595b226a934e76d6b372de8a4cacda4cc89c9de4c9131487a58fe446f200b226cf94d0a39c5abbe1e1&fid=3712110986-250528-901032551596674&time=1657453940&sign=FDTAXUbGERLQlBHSKfWqi-DCb740ccc5511e5e8fedcff06b081203-TiJiUOgO3Pez6%2F8JAdFaiktB96s%3D&to=80&size=10226&sta_dx=10226&sta_cs=0&sta_ft=png&sta_ct=0&sta_mt=0&fm2=MH%2CBaoding%2CAnywhere%2C%2C%E6%B2%B3%E5%8C%97%2Ccnc&ctime=1657451134&mtime=1657451134&resv0=0&resv1=0&resv2=rlim&resv3=5&resv4=10226&vuk=3712110986&iv=0&htype=&randtype=&tkbind_id=0&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-d923a8a5b9bdc1ce51b09d922a7e71483efd2d1024afa46697a9d8126f6a86e99336a18143b3fa00a16ecb4e52b46906ffb6581c9cc8b01e305a5e1275657320&sl=68616270&expires=8h&rt=pr&r=292347094&vbdid=3366925214&fin=zbdw.png&fn=zbdw.png&rtype=1&dp-logid=9037526401435997841&dp-callid=0.1&hps=1&tsl=200&csl=200&fsl=0&csign=iCeE3hu5ec7KwHqtCc8Xg6WIlPc%3D&so=0&ut=6&uter=4&serv=0&uc=3234104118&ti=068bcab50ae430c73620bffa471f88fff913cef6e7f57705&hflag=30&from_type=1&adg=c_4448f6305f9f70b543628c93f8cf1641&reqlabel=250528_f_0d379c25691f1db02fd2dff786ffd19a_-1_e575750a3c4aa01749b9e79faa454520&by=themis");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27.7%;
+    height: 27.5%;
+    position: absolute;
+    bottom: 14.3%;
+}
+/* 第一部分 结束 */
+
+/* 第二部分（中间） */
+#cover-part2{
+    /* background-color: #0e973c; */
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+}
+#tittle-img{
+    background-image: url("../src/img/tittle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+}
+/* next-icon属性与动画 */
+.next-ico-unity{
+    z-index: 100;
+    width: 20%;
+    border-radius: 20rem;
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+    position: absolute;
+}
+.next-ico-arrow-unity{
+    z-index: 100;
+    width: 60%;
+    padding-bottom: 56%;
+    height: 0;
+    position: absolute;
+    left:17%;
+}
+.next-ico-border{
+    height: 16%;
+    bottom: 7.15%;
+}
+.next-ico-arrow{
+    animation-name: arrow-mov;
+    animation-duration: 1.8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    border-bottom: 0.3vw solid #fff;
+    border-right: 0.3vw solid #fff;
+    transform:rotate(55deg) skew(20deg);
+    bottom: 40%;
+}
+@-webkit-keyframes arrow-mov{
+    0% {transform:rotate(55deg) skew(20deg) translateY(0) translateX(0rem);opacity: 0;}
+    40% {transform:rotate(55deg) skew(20deg) translateY(40%) translateX(40%);opacity: 1;}
+    80% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 1;}
+    100% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 0;}
+}
+@keyframes arrow-mov{
+    0% {transform:rotate(55deg) skew(20deg) translateY(0) translateX(0rem);opacity: 0;}
+    40% {transform:rotate(55deg) skew(20deg) translateY(40%) translateX(40%);opacity: 1;}
+    80% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 1;}
+    100% {transform:rotate(55deg) skew(20deg) translateY(80%) translateX(80%);opacity: 0;}
+}
+/* next-icon属性与动画  结束 */
+#enter-img{
+    width: 20%;
+    height: 12%;
+    background-image: url('../src/img/enter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    position: absolute;
+    bottom: 7.15%;
+    right: 50%;
+}
+
+/* 简介页 */
+.next-ico-border-pre{
+    padding-bottom: 20%;
+    height: 0;
+}
+.next-ico-arrow-pre{
+    border-top: 0.3vw solid #fff;
+    border-left: 0.3vw solid #fff;
+    transform:rotate(55deg) skew(20deg);
+    top: 35%;
+}
+#tittle-img-min{
+    background-image: url("../src/img/tittle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    height: 18%;
+}
+#introduction-img{
+    width: 100%;
+    height: 60%;
+    background-image: url('../src/img/introduction.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 7.15%;
+}
+/* 简介页 结束 */
+/* 第二部分 结束 */
+
+/* 第三部分（右侧） */
+#cover-part3{
+    /* background-color: #0013c0; */
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+#tittle-label-img{
+    width: 62%;
+    height: 49%;
+    background-image: url("../src/img/label.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    right: 0;
+}
+/* 第三部分 结束 */
+/* 封面各元素属性  结束*/
+
+/* 目录页 */
+@keyframes move-in-1{
+    from {transform: translateX(45%);}
+    to {transform: translateX(100%);}
+}
+@keyframes move-in-2{
+    from {transform: translateX(0%);}
+    to {transform: translateX(100%);}
+}
+@keyframes move-in-3{
+    from {transform: translateX(-45%);}
+    to {transform: translateX(100%);}
+}
+@keyframes move-in-4{
+    from {transform: translateX(45%);}
+    to {transform: translateX(-100%);}
+}
+@keyframes move-in-5{
+    from {transform: translateX(0%);}
+    to {transform: translateX(-100%);}
+}
+@keyframes move-in-6{
+    from {transform: translateX(-45%);}
+    to {transform: translateX(-100%);}
+}
+.back-to-cover-indent
+{
+    left: 35%;
+    bottom: 9.6%;
+}
+.catalog-indent{
+    
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 41%;
+}
+#catalog-text-img1{
+    background-image: url("../src/img/zddw.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27.7%;
+    height: 30%;
+}
+#catalog-text-img2{
+    background-image: url("../src/img/zbdw.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 27.7%;
+    height: 27.5%;
+    position: absolute;
+    top: 36%;
+}
+#catalog{
+    z-index: 100;
+    animation: fade-in 0.5s ease 0s 1 normal forwards;
+    height: 37%;
+}
+.catalog-block{
+    z-index: 100;
+    width: 36%;
+    height: 16%;
+    border-radius: 20rem;
+    background-color:#fff;
+    border-width: 0.3vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 37%;
+}
+#catalog-right{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 10%;
+}
+#catalog-left{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 10%;
+}
+.catalog-right{
+    right: 0;
+}
+.catalog-block-left{
+    transform: translateX(45%);
+}
+.catalog-block-mid{
+    top: 28%;
+}
+.catalog-block-right{
+    top: 56%;
+    transform: translateX(-45%);
+}
+#introduction-text{
+    animation: move-in-1 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/intro-text.png');
+}
+#competition-situation{
+    animation: move-in-2 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/cpt-text.png');
+}
+#award{
+    animation: move-in-3 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/awa-text.png');
+}
+#first-prize{
+    animation: move-in-4 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/1st-text.png');
+}
+#second-prize{
+    animation: move-in-5 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/2nd-text.png');
+}
+#third-prize{
+    animation: move-in-6 1s ease-in 0s 1 reverse forwards;
+    background-image: url('../src/img/3rd-text.png');
+}
+/* 目录页 结束 */
+
+/* 图表页 */
+.chart{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+.chart-text{
+    height: 10%;
+    width: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 40%;
+}
+#slide-ico{
+    width: 10%;
+    height: 8%;
+    left: 10%;
+    bottom: 7.15%;
+    background-image: url('../src/img/slide.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+#cpt-chart-text{
+    background-image: url('../src/img/cpt-chart-text.png');
+}
+#awa-chart-text{
+    background-image: url('../src/img/awa-chart-text.png');
+}
+#terr-chart-text{
+    background-image: url('../src/img/terr-chart-text.png');
+}
+#cpt-chart{
+    background-image: url('../src/img/cpt-chart.png');
+}
+#awa-chart{
+    background-image: url('../src/img/awa-chart.png');
+}
+#map-chart{
+    background-image: url('../src/img/map-chart.png');
+}
+#chart-show{
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+    width: 100%;
+    height: 36%;
+    position: absolute;
+    bottom: 7.15%;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+/* 图表页结束 */
+
+/* 获奖名单目录页 */
+.slide-ud-block{
+    height: 36.85%;
+    width: 100%;
+    position: absolute;
+}
+.slide-ud-ico{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    bottom: 4%;
+    background-image: url('../src/img1/slid-ud.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.awa-contents{
+    width: 100%;
+    height: 56%;
+    position: absolute;
+    bottom: 7.15%;
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    direction: rtl;
+}
+.awa-contents-line{
+    width: 20%;
+    height: 100%;
+    margin-right: 15%;
+    display: inline-block;
+}
+.awa-contents-line-last{
+    margin-left: 15%;
+}
+.awa-contents-content{
+    width: 100%;
+    height: 37%;
+    margin-top: 50%;
+    margin-bottom: 150%;
+}
+.awa-contents-block{
+    width: 100%;
+    padding-bottom: 96%;
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+}
+.awa-contents-text{
+    width: 100%;
+    height: 70%;
+    margin-top: 20%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 一等奖名单 */
+.prize-ico{
+    width: 20%;
+    height: 10%;
+    left: 10%;
+    bottom: 7.15%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+#first-ico{
+    background-image: url('../src/img1/1st/1st.png');
+}
+#second-ico{
+    background-image: url('../src/img1/2nd/2nd.png');
+}
+#third-ico{
+    background-image: url('../src/img1/3rd/3rd.png');
+}
+#awa-1st-1{
+    background-image: url('../src/img1/1st/1st-1.png');
+}
+#awa-1st-2{
+    background-image: url('../src/img1/1st/1st-2.png');
+}
+#awa-1st-3{
+    background-image: url('../src/img1/1st/1st-3.png');
+}
+#awa-1st-4{
+    background-image: url('../src/img1/1st/1st-4.png');
+}
+#awa-1st-5{
+    background-image: url('../src/img1/1st/1st-5.png');
+}
+#awa-1st-6{
+    background-image: url('../src/img1/1st/1st-6.png');
+}
+#awa-1st-7{
+    background-image: url('../src/img1/1st/1st-7.png');
+}
+#awa-1st-8{
+    background-image: url('../src/img1/1st/1st-8.png');
+}
+#awa-1st-9{
+    background-image: url('../src/img1/1st/1st-9.png');
+}
+#awa-1st-10{
+    background-image: url('../src/img1/1st/1st-10.png');
+}
+#awa-2nd-1{
+    background-image: url('../src/img1/2nd/2nd-1.png');
+}
+#awa-2nd-2{
+    background-image: url('../src/img1/2nd/2nd-2.png');
+}
+#awa-2nd-3{
+    background-image: url('../src/img1/2nd/2nd-3.png');
+}
+#awa-2nd-4{
+    background-image: url('../src/img1/2nd/2nd-4.png');
+}
+#awa-2nd-5{
+    background-image: url('../src/img1/2nd/2nd-5.png');
+}
+#awa-2nd-6{
+    background-image: url('../src/img1/2nd/2nd-6.png');
+}
+#awa-2nd-7{
+    background-image: url('../src/img1/2nd/2nd-7.png');
+}
+#awa-2nd-8{
+    background-image: url('../src/img1/2nd/2nd-8.png');
+}
+#awa-2nd-9{
+    background-image: url('../src/img1/2nd/2nd-9.png');
+}
+#awa-2nd-10{
+    background-image: url('../src/img1/2nd/2nd-10.png');
+}
+#awa-3rd-1{
+    background-image: url('../src/img1/3rd/3rd-1.png');
+}
+#awa-3rd-2{
+    background-image: url('../src/img1/3rd/3rd-2.png');
+}
+#awa-3rd-3{
+    background-image: url('../src/img1/3rd/3rd-3.png');
+}
+#awa-3rd-4{
+    background-image: url('../src/img1/3rd/3rd-4.png');
+}
+#awa-3rd-5{
+    background-image: url('../src/img1/3rd/3rd-5.png');
+}
+#awa-3rd-6{
+    background-image: url('../src/img1/3rd/3rd-6.png');
+}
+#awa-3rd-7{
+    background-image: url('../src/img1/3rd/3rd-7.png');
+}
+#awa-3rd-8{
+    background-image: url('../src/img1/3rd/3rd-8.png');
+}
+#awa-3rd-9{
+    background-image: url('../src/img1/3rd/3rd-9.png');
+}
+#awa-3rd-10{
+    background-image: url('../src/img1/3rd/3rd-10.png');
+}
