@@ -335,7 +335,7 @@ body {
 }
 /* 目录页 结束 */
 
-/* 图标页 */
+/* 图表页 */
 .chart{
     width: 100%;
     height: 100%;
@@ -392,4 +392,175 @@ body {
     bottom: 7.15%;
     white-space: nowrap;
     overflow-y: auto;
+}
+/* 图表页结束 */
+
+/* 获奖名单目录页 */
+.slide-ud-block{
+    height: 36.85%;
+    width: 100%;
+    position: absolute;
+}
+.slide-ud-ico{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    bottom: 4%;
+    background-image: url('../src/img1/slid-ud.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.awa-contents{
+    width: 100%;
+    height: 56%;
+    position: absolute;
+    bottom: 7.15%;
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    direction: rtl;
+}
+.awa-contents-line{
+    width: 20%;
+    height: 100%;
+    margin-right: 15%;
+    display: inline-block;
+}
+.awa-contents-line-last{
+    margin-left: 15%;
+}
+.awa-contents-content{
+    width: 100%;
+    height: 37%;
+    margin-top: 50%;
+    margin-bottom: 150%;
+}
+.awa-contents-block{
+    width: 100%;
+    padding-bottom: 96%;
+    border-style:solid;
+    border-color: #fff;
+    border-width: 0.3vw;
+}
+.awa-contents-text{
+    width: 100%;
+    height: 70%;
+    margin-top: 20%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 一等奖名单 */
+.prize-ico{
+    width: 20%;
+    height: 10%;
+    left: 10%;
+    bottom: 7.15%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+#first-ico{
+    background-image: url('../src/img1/1st/1st.png');
+}
+#second-ico{
+    background-image: url('../src/img1/2nd/2nd.png');
+}
+#third-ico{
+    background-image: url('../src/img1/3rd/3rd.png');
+}
+#awa-1st-1{
+    background-image: url('../src/img1/1st/1st-1.png');
+}
+#awa-1st-2{
+    background-image: url('../src/img1/1st/1st-2.png');
+}
+#awa-1st-3{
+    background-image: url('../src/img1/1st/1st-3.png');
+}
+#awa-1st-4{
+    background-image: url('../src/img1/1st/1st-4.png');
+}
+#awa-1st-5{
+    background-image: url('../src/img1/1st/1st-5.png');
+}
+#awa-1st-6{
+    background-image: url('../src/img1/1st/1st-6.png');
+}
+#awa-1st-7{
+    background-image: url('../src/img1/1st/1st-7.png');
+}
+#awa-1st-8{
+    background-image: url('../src/img1/1st/1st-8.png');
+}
+#awa-1st-9{
+    background-image: url('../src/img1/1st/1st-9.png');
+}
+#awa-1st-10{
+    background-image: url('../src/img1/1st/1st-10.png');
+}
+#awa-2nd-1{
+    background-image: url('../src/img1/2nd/2nd-1.png');
+}
+#awa-2nd-2{
+    background-image: url('../src/img1/2nd/2nd-2.png');
+}
+#awa-2nd-3{
+    background-image: url('../src/img1/2nd/2nd-3.png');
+}
+#awa-2nd-4{
+    background-image: url('../src/img1/2nd/2nd-4.png');
+}
+#awa-2nd-5{
+    background-image: url('../src/img1/2nd/2nd-5.png');
+}
+#awa-2nd-6{
+    background-image: url('../src/img1/2nd/2nd-6.png');
+}
+#awa-2nd-7{
+    background-image: url('../src/img1/2nd/2nd-7.png');
+}
+#awa-2nd-8{
+    background-image: url('../src/img1/2nd/2nd-8.png');
+}
+#awa-2nd-9{
+    background-image: url('../src/img1/2nd/2nd-9.png');
+}
+#awa-2nd-10{
+    background-image: url('../src/img1/2nd/2nd-10.png');
+}
+#awa-3rd-1{
+    background-image: url('../src/img1/3rd/3rd-1.png');
+}
+#awa-3rd-2{
+    background-image: url('../src/img1/3rd/3rd-2.png');
+}
+#awa-3rd-3{
+    background-image: url('../src/img1/3rd/3rd-3.png');
+}
+#awa-3rd-4{
+    background-image: url('../src/img1/3rd/3rd-4.png');
+}
+#awa-3rd-5{
+    background-image: url('../src/img1/3rd/3rd-5.png');
+}
+#awa-3rd-6{
+    background-image: url('../src/img1/3rd/3rd-6.png');
+}
+#awa-3rd-7{
+    background-image: url('../src/img1/3rd/3rd-7.png');
+}
+#awa-3rd-8{
+    background-image: url('../src/img1/3rd/3rd-8.png');
+}
+#awa-3rd-9{
+    background-image: url('../src/img1/3rd/3rd-9.png');
+}
+#awa-3rd-10{
+    background-image: url('../src/img1/3rd/3rd-10.png');
 }
