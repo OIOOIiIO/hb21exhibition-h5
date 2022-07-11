@@ -188,11 +188,129 @@ var back_to_first = function(){
         })
     }
 }
+
+// 一等奖作品页面滑动
+var first_slide = function(){
+    var mark = 0;
+    document.getElementsByClassName('works-body')[0].addEventListener('scroll',function(){
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
+        var works_width7 = document.getElementById('awa-1st-7-content').clientWidth;
+        var works_width8 = document.getElementById('awa-1st-8-content').clientWidth;
+        var works_width9 = document.getElementById('awa-1st-9-content').clientWidth;
+        var scro = document.getElementsByClassName('works-body')[0].scrollLeft;
+        if(scro >= -works_width1/2)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-1-90');
+            if(mark != 0)
+            {
+                first_fade();
+                mark = 0;
+            }
+        }
+        if( scro <= -works_width1*4/5 && scro >= -works_width1-works_width2*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-2-90');
+            if(mark != 1)
+            {
+                first_fade();
+                mark = 1;
+            }
+        }
+        if(scro <= -works_width1-works_width2*4/5 && scro >= -works_width1-works_width2-works_width3*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-3-90');
+            if(mark != 2)
+            {
+                first_fade();
+                mark = 2;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3*4/5 && scro >= -works_width1-works_width2-works_width3-works_width4*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-4-90');
+            if(mark != 3)
+            {
+                first_fade();
+                mark = 3;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4*4/5&&scro >= -works_width1-works_width2-works_width3-works_width4-works_width5*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-5-90');
+            if(mark != 4)
+            {
+                first_fade();
+                mark = 4;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4-works_width5*4/5&&scro >= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-6-90');
+            if(mark != 5)
+            {
+                first_fade();
+                mark = 5;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6*4/5&&scro >= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-7-90');
+            if(mark != 6)
+            {
+                first_fade();
+                mark = 6;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7*4/5&&scro >= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-8-90');
+            if(mark != 7)
+            {
+                first_fade();
+                mark = 7;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8*4/5&&scro >= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8-works_width9*1/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-9-90');
+            if(mark != 8)
+            {
+                first_fade();
+                mark = 8;
+            }
+        }
+        if(scro <= -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8-works_width9*4/5)
+        {
+            document.getElementsByClassName('works-inform')[0].setAttribute('id','awa-1st-10-90');
+            if(mark != 9)
+            {
+                first_fade();
+                mark = 9;
+            }
+        }
+    })
+}
+var first_fade = function(){
+    var fade_in = document.getElementsByClassName('fade-in')[0];
+    if(fade_in)
+    {
+        document.getElementsByClassName('works-inform')[0].classList.add('fade-in');
+        document.getElementsByClassName('works-inform')[0].addEventListener('animationend',function(){
+            document.getElementsByClassName('works-inform')[0].classList.remove('fade-in');
+        });
+    }
+}
 var first_to_1 = function(){
     document.getElementById('awa-1st-1').addEventListener('click',function(){
         document.getElementById('container').innerHTML = "";
         document.getElementById('container').innerHTML = first_works;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_2 = function(){
@@ -203,6 +321,7 @@ var first_to_2 = function(){
         var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_3 = function(){
@@ -214,6 +333,7 @@ var first_to_3 = function(){
         var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_4 = function(){
@@ -226,6 +346,7 @@ var first_to_4 = function(){
         var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_5 = function(){
@@ -239,6 +360,7 @@ var first_to_5 = function(){
         var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_6 = function(){
@@ -253,6 +375,7 @@ var first_to_6 = function(){
         var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_7 = function(){
@@ -268,6 +391,7 @@ var first_to_7 = function(){
         var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_8 = function(){
@@ -285,6 +409,7 @@ var first_to_8 = function(){
         console.log(works_width7);
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_9 = function(){
@@ -302,6 +427,7 @@ var first_to_9 = function(){
         var works_width8 = document.getElementById('awa-1st-8-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8;
         back_to_first();
+        first_slide();
     })
 }
 var first_to_10 = function(){
@@ -320,6 +446,7 @@ var first_to_10 = function(){
         var works_width9 = document.getElementById('awa-1st-9-content').clientWidth;
         document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8-works_width9;
         back_to_first();
+        first_slide();
     })
 }
 
