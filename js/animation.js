@@ -94,9 +94,9 @@ var page2_to_awa = function(){
 var slide = function(){
     var mark = 0;
     document.getElementById('chart-show').addEventListener('scroll',function(){
-        var scro = document.getElementById('chart-show').scrollTop;
-        var chart_height = document.getElementById('chart-show').clientHeight;
-        if(scro<=chart_height/2)
+        var scro = document.getElementById('chart-show').scrollLeft;
+        var chart_width = document.getElementById('chart-show').clientWidth;
+        if(scro>=-chart_width/2)
         {
             document.getElementsByClassName('chart-text')[0].setAttribute('id','awa-chart-text');
             if(mark)
@@ -105,7 +105,7 @@ var slide = function(){
                 mark = 0;
             }
         }
-        else if(scro>chart_height/2)
+        else if(scro<-chart_width/2)
         {
             document.getElementsByClassName('chart-text')[0].setAttribute('id','terr-chart-text');
             if(!mark)
