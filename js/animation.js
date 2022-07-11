@@ -6,7 +6,9 @@ var chart_page2_text = "<div id='cover-part1' class='fade-in'> <div class='cover
 var first_contents = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'> <div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div> </div> <div id='tittle-img-min' class='cover-indent'></div> <div class='slide-ud-block'> <div class='slide-ud-ico'></div> </div> <div class='awa-contents'> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-1'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-2'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-3'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-4'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-5'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-6'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-7'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-8'></div> </div> </div> <div class='awa-contents-line awa-contents-line-last'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-9'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-1st-10'></div> </div> </div> </div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> <div id='first-ico' class='prize-ico'></div> </div>"
 var second_contents = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'> <div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div> </div> <div id='tittle-img-min' class='cover-indent'></div> <div class='slide-ud-block'> <div class='slide-ud-ico'></div> </div> <div class='awa-contents'> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-1'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-2'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-3'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-4'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-5'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-6'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-7'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-8'></div> </div> </div> <div class='awa-contents-line awa-contents-line-last'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-9'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-2nd-10'></div> </div> </div> </div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> <div id='second-ico' class='prize-ico'></div> </div>"
 var third_contents = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'> <div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div> </div> <div id='tittle-img-min' class='cover-indent'></div> <div class='slide-ud-block'> <div class='slide-ud-ico'></div> </div> <div class='awa-contents'> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-1'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-2'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-3'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-4'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-5'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-6'></div> </div> </div> <div class='awa-contents-line'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-7'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-8'></div> </div> </div> <div class='awa-contents-line awa-contents-line-last'> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-9'></div> </div> <div class='awa-contents-content'> <div class='awa-contents-block'></div> <div class='awa-contents-text' id='awa-3rd-10'></div> </div> </div> </div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> <div id='third-ico' class='prize-ico'></div> </div>"
-
+var first_works1 = "<div id='cover-part3' class='fade-in'> <div class='back-2-1st' id='back-2-1st-border'> <div class='back-2-1st' id='back-2-1st-arrow'></div> </div> <div id='tittle-label-img' class='cover-indent'></div> <div class='tittle-img-min2'></div> </div> <div id='cover-part1-part2' class='cover-indent fade-in'> <div class='works-head'> <div id='awa-1st-1-90' class='works-inform'></div> <div class='slide-ud-ico2'></div> </div> <div class='works-body'> <div class='works-content' id='awa-1st-1-content'> <div class='awa-content-line'> <div id='awa-1st-1-content1' class='awa-content-img'></div> <div id='awa-1st-1-content2' class='awa-content-img'></div> <div id='awa-1st-1-content3' class='awa-content-img'></div> </div> <div class='awa-content-line'> <div id='awa-1st-1-content4' class='awa-content-img'></div> <div id='awa-1st-1-content5' class='awa-content-img'></div> <div id='awa-1st-1-content6' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-2-content'> <div class='awa-content-line'> <div id='awa-1st-2-content1' class='awa-content-img'></div> <div id='awa-1st-2-content2' class='awa-content-img'></div> <div id='awa-1st-2-content3' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-3-content'> <div class='awa-content-line'> <div id='awa-1st-3-content1' class='awa-content-img'></div> <div id='awa-1st-3-content2' class='awa-content-img'></div> <div id='awa-1st-3-content3' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-4-content'> <div class='awa-content-line'> <div id='awa-1st-4-content1' class='awa-content-img'></div> <div id='awa-1st-4-content2' class='awa-content-img'></div> <div id='awa-1st-4-content3' class='awa-content-img'></div> </div> </div>"
+var first_works2 = "<div class='works-content' id='awa-1st-5-content'> <div class='awa-content-line'> <div id='awa-1st-5-content1' class='awa-content-img'></div> <div id='awa-1st-5-content2' class='awa-content-img'></div> <div id='awa-1st-5-content3' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-6-content'> <div class='awa-content-line'> <div id='awa-1st-6-content1' class='awa-content-text'></div> </div> </div> <div class='works-content' id='awa-1st-7-content'> </div> <div class='works-content' id='awa-1st-8-content'> <div class='awa-content-line'> <div id='awa-1st-8-content1' class='awa-content-img'></div> <div id='awa-1st-8-content2' class='awa-content-img'></div> <div id='awa-1st-8-content3' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-9-content'> <div class='awa-content-line'> <div id='awa-1st-9-content1' class='awa-content-img'></div> <div id='awa-1st-9-content2' class='awa-content-img'></div> </div> </div> <div class='works-content' id='awa-1st-10-content'> <div class='awa-content-line'> <div id='awa-1st-10-content1' class='awa-content-img'></div> <div id='awa-1st-10-content2' class='awa-content-img'></div> <div id='awa-1st-10-content3' class='awa-content-img'></div> </div> </div> </div> </div>"
+var first_works = first_works1+first_works2
 // 首页到目录页
 var page1_next = function(){
     var next_click = document.getElementsByClassName('cover-next');
@@ -133,6 +135,16 @@ var page2_to_first = function(){
         document.getElementById('container').innerHTML = "";
         document.getElementById('container').innerHTML = first_contents;
         page3_pre();
+        first_to_1();
+        first_to_2();
+        first_to_3();
+        first_to_4();
+        first_to_5();
+        first_to_6();
+        first_to_7();
+        first_to_8();
+        first_to_9();
+        first_to_10();
     })
 }
 // 目录页到二等奖页
@@ -151,5 +163,165 @@ var page2_to_third = function(){
         page3_pre();
     })
 }
+
+
+//一等奖到作品详情页
+var back_to_first = function(){
+    var back_2_1st = document.getElementsByClassName('back-2-1st');
+    for(var i=0; i<back_2_1st.length; i++)
+    {
+        back_2_1st[i].addEventListener('click',function(){
+            document.getElementById('container').innerHTML = "";
+            document.getElementById('container').innerHTML = first_contents;
+            page3_pre();
+            first_to_1();
+            first_to_2();
+            first_to_3();
+            first_to_4();
+            first_to_5();
+            first_to_6();
+            first_to_7();
+            first_to_8();
+            first_to_9();
+            first_to_10();
+
+        })
+    }
+}
+var first_to_1 = function(){
+    document.getElementById('awa-1st-1').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        back_to_first();
+    })
+}
+var first_to_2 = function(){
+    document.getElementById('awa-1st-2').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-2-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1;
+        back_to_first();
+    })
+}
+var first_to_3 = function(){
+    document.getElementById('awa-1st-3').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-3-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2;
+        back_to_first();
+    })
+}
+var first_to_4 = function(){
+    document.getElementById('awa-1st-4').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-4-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3;
+        back_to_first();
+    })
+}
+var first_to_5 = function(){
+    document.getElementById('awa-1st-5').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-5-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4;
+        back_to_first();
+    })
+}
+var first_to_6 = function(){
+    document.getElementById('awa-1st-6').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-6-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5;
+        back_to_first();
+    })
+}
+var first_to_7 = function(){
+    document.getElementById('awa-1st-7').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-7-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6;
+        back_to_first();
+    })
+}
+var first_to_8 = function(){
+    document.getElementById('awa-1st-8').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-8-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
+        var works_width7 = document.getElementById('awa-1st-7-content').clientWidth;
+        console.log(works_width7);
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7;
+        back_to_first();
+    })
+}
+var first_to_9 = function(){
+    document.getElementById('awa-1st-9').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-9-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
+        var works_width7 = document.getElementById('awa-1st-7-content').clientWidth;
+        var works_width8 = document.getElementById('awa-1st-8-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8;
+        back_to_first();
+    })
+}
+var first_to_10 = function(){
+    document.getElementById('awa-1st-10').addEventListener('click',function(){
+        document.getElementById('container').innerHTML = "";
+        document.getElementById('container').innerHTML = first_works;
+        document.getElementById('awa-1st-1-90').id = 'awa-1st-10-90'
+        var works_width1 = document.getElementById('awa-1st-1-content').clientWidth;
+        var works_width2 = document.getElementById('awa-1st-2-content').clientWidth;
+        var works_width3 = document.getElementById('awa-1st-3-content').clientWidth;
+        var works_width4 = document.getElementById('awa-1st-4-content').clientWidth;
+        var works_width5 = document.getElementById('awa-1st-5-content').clientWidth;
+        var works_width6 = document.getElementById('awa-1st-6-content').clientWidth;
+        var works_width7 = document.getElementById('awa-1st-7-content').clientWidth;
+        var works_width8 = document.getElementById('awa-1st-8-content').clientWidth;
+        var works_width9 = document.getElementById('awa-1st-9-content').clientWidth;
+        document.getElementsByClassName('works-body')[0].scrollLeft = -works_width1-works_width2-works_width3-works_width4-works_width5-works_width6-works_width7-works_width8-works_width9;
+        back_to_first();
+    })
+}
+
 
 page1_next();
