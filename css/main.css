@@ -536,62 +536,122 @@ body {
 #awa-2nd-1{
     background-image: url('../src/img1/2nd/2nd-1.png');
 }
+#awa-2nd-1-90{
+    background-image: url(../src/img1/2nd/-90/2nd-1.png);
+}
 #awa-2nd-2{
     background-image: url('../src/img1/2nd/2nd-2.png');
+}
+#awa-2nd-2-90{
+    background-image: url(../src/img1/2nd/-90/2nd-2.png);
 }
 #awa-2nd-3{
     background-image: url('../src/img1/2nd/2nd-3.png');
 }
+#awa-2nd-3-90{
+    background-image: url(../src/img1/2nd/-90/2nd-3.png);
+}
 #awa-2nd-4{
     background-image: url('../src/img1/2nd/2nd-4.png');
+}
+#awa-2nd-4-90{
+    background-image: url(../src/img1/2nd/-90/2nd-4.png);
 }
 #awa-2nd-5{
     background-image: url('../src/img1/2nd/2nd-5.png');
 }
+#awa-2nd-5-90{
+    background-image: url(../src/img1/2nd/-90/2nd-5.png);
+}
 #awa-2nd-6{
     background-image: url('../src/img1/2nd/2nd-6.png');
+}
+#awa-2nd-6-90{
+    background-image: url(../src/img1/2nd/-90/2nd-6.png);
 }
 #awa-2nd-7{
     background-image: url('../src/img1/2nd/2nd-7.png');
 }
+#awa-2nd-7-90{
+    background-image: url(../src/img1/2nd/-90/2nd-7.png);
+}
 #awa-2nd-8{
     background-image: url('../src/img1/2nd/2nd-8.png');
 }
+#awa-2nd-8-90{
+    background-image: url(../src/img1/2nd/-90/2nd-8.png);
+}
 #awa-2nd-9{
     background-image: url('../src/img1/2nd/2nd-9.png');
+}#awa-2nd-9-90{
+    background-image: url(../src/img1/2nd/-90/2nd-9.png);
 }
+
 #awa-2nd-10{
     background-image: url('../src/img1/2nd/2nd-10.png');
+}
+#awa-2nd-10-90{
+    background-image: url(../src/img1/2nd/-90/2nd-10.png);
 }
 #awa-3rd-1{
     background-image: url('../src/img1/3rd/3rd-1.png');
 }
+#awa-3rd-1-90{
+    background-image: url('../src/img1/3rd/-90/3rd-1.png');
+}
 #awa-3rd-2{
     background-image: url('../src/img1/3rd/3rd-2.png');
+}
+#awa-3rd-2-90{
+    background-image: url('../src/img1/3rd/-90/3rd-2.png');
 }
 #awa-3rd-3{
     background-image: url('../src/img1/3rd/3rd-3.png');
 }
+#awa-3rd-3-90{
+    background-image: url('../src/img1/3rd/-90/3rd-3.png');
+}
 #awa-3rd-4{
     background-image: url('../src/img1/3rd/3rd-4.png');
+}
+#awa-3rd-4-90{
+    background-image: url('../src/img1/3rd/-90/3rd-4.png');
 }
 #awa-3rd-5{
     background-image: url('../src/img1/3rd/3rd-5.png');
 }
+#awa-3rd-5-90{
+    background-image: url('../src/img1/3rd/-90/3rd-5.png');
+}
 #awa-3rd-6{
     background-image: url('../src/img1/3rd/3rd-6.png');
+}
+#awa-3rd-6-90{
+    background-image: url('../src/img1/3rd/-90/3rd-6.png');
 }
 #awa-3rd-7{
     background-image: url('../src/img1/3rd/3rd-7.png');
 }
+#awa-3rd-7-90{
+    background-image: url('../src/img1/3rd/-90/3rd-7.png');
+}
 #awa-3rd-8{
     background-image: url('../src/img1/3rd/3rd-8.png');
+}
+#awa-3rd-8-90{
+    background-image: url('../src/img1/3rd/-90/3rd-8.png');
 }
 #awa-3rd-9{
     background-image: url('../src/img1/3rd/3rd-9.png');
 }
+#awa-3rd-9-90{
+    background-image: url('../src/img1/3rd/-90/3rd-9.png');
+}
 #awa-3rd-10{
     background-image: url('../src/img1/3rd/3rd-10.png');
+}
+#awa-3rd-10-90{
+    background-image: url('../src/img1/3rd/-90/3rd-10.png');
 }
 
 /* 作品详情页 */
@@ -830,4 +890,188 @@ body {
 }
 #awa-1st-10-content3{
     background-image: url('../src/img1/1st/C-1-B-0320/202110191133470463_3.jpg'); 
+}
+#awa-2nd-1-content1{
+    background-image: url('../src/img1/2nd/A-2-B-0378/202111121034430725_1.png');
+}
+#awa-2nd-2-content1{
+    background-image: url('../src/img1/2nd/A-2-B-0379/202111152222320048_1.png');
+    box-shadow: none;
+}
+#awa-2nd-2-content2{
+    background-image: url('../src/img1/2nd/A-2-B-0379/202111152222320048_2.png');
+    box-shadow: none;
+}
+#awa-2nd-2-content3{
+    background-image: url('../src/img1/2nd/A-2-B-0379/202111152222320048_3.png');
+    box-shadow: none;
+}
+#awa-2nd-3-content{
+    background-image: url('../src/img1/2nd/A-4-D-0058/202111151506480857.png');
+}
+#awa-2nd-4-content{
+    background-image: url('../src/img1/2nd/A-6-C-0002/202110051112200653.jpg'); 
+}
+#awa-2nd-4-content1{
+    background-image: url('../src/img1/2nd/A-6-C-0002/202110051112200653_1.jpg'); 
+}
+#awa-2nd-4-content2{
+    background-image: url('../src/img1/2nd/A-6-C-0002/202110051112200653_2.png'); 
+}
+#awa-2nd-4-content3{
+    background-image: url('../src/img1/2nd/A-6-C-0002/202110051112200653_3.jpg'); 
+}
+#awa-2nd-5-content{
+    background-image: url('../src/img1/2nd/B-1-A-0031/202107191238060471.jpg'); 
+}
+#awa-2nd-5-content1{
+    background-image: url('../src/img1/2nd/B-1-A-0031/202107191238060471_1.jpg'); 
+}
+#awa-2nd-6-content{
+    background-image: url('../src/img1/2nd/B-1-F-0198/202111152121340837.jpg'); 
+}
+#awa-2nd-6-content1{
+    background-image: url('../src/img1/2nd/B-1-F-0198/202111152121340837_1.jpg'); 
+}
+#awa-2nd-6-content2{
+    background-image: url('../src/img1/2nd/B-1-F-0198/202111152121340837_2.jpg'); 
+}
+#awa-2nd-6-content3{
+    background-image: url('../src/img1/2nd/B-1-F-0198/202111152121340837_3.jpg'); 
+}
+#awa-2nd-8-content{
+    background-image: url('../src/img1/2nd/B-4-G-0008/202111111422170439.png'); 
+}
+#awa-2nd-9-content{
+    background-image: url('../src/img1/2nd/C-1-B-0559/202111101127210506.jpg'); 
+}
+#awa-2nd-9-content1{
+    background-image: url('../src/img1/2nd/C-1-B-0559/202111101127210506_1.jpg'); 
+}
+#awa-2nd-9-content2{
+    background-image: url('../src/img1/2nd/C-1-B-0559/202111101127200480_2.jpg'); 
+}
+#awa-2nd-10-content{
+    background-image: url('../src/img1/2nd/C-1-F-0039/202108041604570227.jpg');
+}
+#awa-2nd-10-content1{
+    background-image: url('../src/img1/2nd/C-1-F-0039/202108041604530311_1.jpg'); 
+}
+#awa-2nd-10-content2{
+    background-image: url('../src/img1/2nd/C-1-F-0039/202108041604570227_2.jpg'); 
+}
+#awa-2nd-10-content3{
+    background-image: url('../src/img1/2nd/C-1-F-0039/202108041605000702_3.jpg');
+}
+#prize1{
+    position: absolute;
+    width: 25%;
+    height: 4.5%;
+    top: 3%;
+    left: 55%;
+    background-image: url('../src/img1/1st/-90/1st.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#prize2{
+    position: absolute;
+    width: 25%;
+    height: 4.5%;
+    top: 3%;
+    left: 55%;
+    background-image: url('../src/img1/2nd/-90/2nd.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#prize3{
+    position: absolute;
+    width: 25%;
+    height: 4.5%;
+    top: 3%;
+    left: 55%;
+    background-image: url('../src/img1/3rd/-90/3rd.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#awa-3rd-1-content{
+    background-image: url('../src/img1/3rd/A-1-A-0139/202110110959160568.jpg');
+}
+#awa-3rd-1-content1{
+    background-image: url('../src/img1/3rd/A-1-A-0139/202110110959160568_1.jpg');
+}
+#awa-3rd-2-content{
+    background-image: url('../src/img1/3rd/A-1-A-0140/202111150952140376.jpg');
+}
+#awa-3rd-2-content1{
+    background-image: url('../src/img1/3rd/A-1-A-0140/202111150952140376_1.jpg');
+}
+#awa-3rd-3-content{
+    background-image: url('../src/img1/3rd/A-1-A-0160/202107260008060377.jpg');
+}
+#awa-3rd-3-content1{
+    background-image: url('../src/img1/3rd/A-1-A-0160/202107260008060377_1.jpg');
+}
+#awa-3rd-3-content2{
+    background-image: url('../src/img1/3rd/A-1-A-0160/202107260009060272_2.jpg');
+}
+#awa-3rd-4-content{
+    background-image: url('../src/img1/3rd/A-1-A-0177/202107272225510068.jpg');
+}
+#awa-3rd-4-content1{
+    background-image: url('../src/img1/3rd/A-1-A-0177/202107272225510068_1.jpg');
+}
+#awa-3rd-4-content2{
+    background-image: url('../src/img1/3rd/A-1-A-0177/202107272225510159_2.jpg');
+}
+#awa-3rd-4-content3{
+    background-image: url('../src/img1/3rd/A-1-A-0177/202107272225510721_3.jpg');
+}
+#awa-3rd-5-content{
+    background-image: url('../src/img1/3rd/A-6-A-0014/202110300007320046.jpg');
+}
+#awa-3rd-5-content1{
+    background-image: url('../src/img1/3rd/A-6-A-0014/202110300007320046_1.jpg');
+}
+#awa-3rd-5-content2{
+    background-image: url('../src/img1/3rd/A-6-A-0014/202110300007320046_2.png');
+}
+#awa-3rd-5-content3{
+    background-image: url('../src/img1/3rd/A-6-A-0014/202110300007320046_3.jpg');
+}
+#awa-3rd-6-content{
+    background-image: url('../src/img1/3rd/B-1-B-0369/0.jpg');
+}
+#awa-3rd-6-content1{
+    background-image: url('../src/img1/3rd/B-1-B-0369/1.jpg');
+}
+#awa-3rd-6-content2{
+    background-image: url('../src/img1/3rd/B-1-B-0369/2.jpg');
+}
+#awa-3rd-6-content3{
+    background-image: url('../src/img1/3rd/B-1-B-0369/3.jpg');
+}
+#awa-3rd-7-content{
+    background-image: url('../src/img1/3rd/B-1-F-0154/202111091637050952.jpg');
+}
+#awa-3rd-7-content1{
+    background-image: url('../src/img1/3rd/B-1-F-0154/202111091637050952_1.jpg');
+}
+#awa-3rd-7-content2{
+    background-image: url('../src/img1/3rd/B-1-F-0154/202111091637060414_2.jpg');
+}
+#awa-3rd-7-content3{
+    background-image: url('../src/img1/3rd/B-1-F-0154/202111091638180527_3.jpg');
+}
+#awa-3rd-9-content{
+    background-image: url('../src/img1/3rd/B-4-E-0012/202111061530250471.png');
+}
+#awa-3rd-10-content{
+    /* background-image: url('../src/img1/3rd/C-1-B-0565/202111101135480273.jpg'); */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#awa-3rd-10-content1{
+    background-image: url('../src/img1/3rd/C-1-B-0565/202111101135480273_1.jpg');
 }
