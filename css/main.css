@@ -267,7 +267,10 @@ body {
 #catalog{
     z-index: 100;
     animation: fade-in 0.5s ease 0s 1 normal forwards;
-    height: 37%;
+    left: 25%;
+    width: 50%;
+    height: 34%;
+    border: 0.3vw solid #fff ;
 }
 .catalog-block{
     z-index: 100;
@@ -281,20 +284,99 @@ body {
     background-position: center;
     background-size: auto 37%;
 }
-#catalog-right{
+.catalog-right-block{
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    right: 10%;
+    right: -0.3vw;
+    top: -0.3vw;
 }
-#catalog-left{
+.catalog-left-block{
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    left: 10%;
+    left: -0.3vw;
+    bottom: -0.3vw;
 }
 .catalog-right{
-    right: 0;
+    z-index: 101;
+    border: 0.3vw solid #fff;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40%;
+}
+.catalog-right-active{
+    z-index: 102;
+    border: 0.3vw solid #fff;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40%;
+    visibility: hidden;
+}
+#catalog-right1{
+    top: 0;
+    background-image: url('../src/img/intro-text-white.png');
+}
+#catalog-right2{
+    top: 33.7%;
+    background-image: url('../src/img/cpt-text-white.png');
+}
+#catalog-right3{
+    bottom: 16%;
+    background-image: url('../src/img/awa-text-white.png');
+}
+.catalog-left{
+    z-index: 101;
+    border: 0.3vw solid #fff;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40%;
+}
+.catalog-left-active{
+    z-index: 102;
+    border: 0.3vw solid #fff;
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+    height: 17%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 40%;
+    visibility: hidden;
+}
+#catalog-left1{
+    top: 16%;
+    background-image: url('../src/img/1st-text-white.png');
+}
+#catalog-left2{
+    bottom: 33.333%;
+    background-image: url('../src/img/2nd-text-white.png');
+}
+#catalog-left3{
+    bottom: 0;
+    background-image: url('../src/img/3rd-text-white.png');
 }
 .catalog-block-left{
     transform: translateX(45%);
@@ -307,27 +389,33 @@ body {
     transform: translateX(-45%);
 }
 #introduction-text{
-    animation: move-in-1 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-1 1s ease-in 0s 1 reverse forwards; */
+    top: 0;
     background-image: url('../src/img/intro-text.png');
 }
 #competition-situation{
-    animation: move-in-2 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-2 1s ease-in 0s 1 reverse forwards; */
+    top: 33.7%;
     background-image: url('../src/img/cpt-text.png');
 }
 #award{
-    animation: move-in-3 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-3 1s ease-in 0s 1 reverse forwards; */
+    bottom: 16%;
     background-image: url('../src/img/awa-text.png');
 }
 #first-prize{
-    animation: move-in-4 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-4 1s ease-in 0s 1 reverse forwards; */
+    top: 16%;
     background-image: url('../src/img/1st-text.png');
 }
 #second-prize{
-    animation: move-in-5 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-5 1s ease-in 0s 1 reverse forwards; */
+    bottom: 33.333%;
     background-image: url('../src/img/2nd-text.png');
 }
 #third-prize{
-    animation: move-in-6 1s ease-in 0s 1 reverse forwards;
+    /* animation: move-in-6 1s ease-in 0s 1 reverse forwards; */
+    bottom: 0;
     background-image: url('../src/img/3rd-text.png');
 }
 /* 目录页 结束 */
