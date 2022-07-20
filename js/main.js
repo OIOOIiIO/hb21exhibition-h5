@@ -65,7 +65,8 @@ preloadimages(['https://oiooiiio.github.io/hb21exhibition-h5/src/img/background.
 'https://oiooiiio.github.io/hb21exhibition-h5/src/img/cpt-text-white.png',
 'https://oiooiiio.github.io/hb21exhibition-h5/src/img/intro-text-white.png',
 'https://oiooiiio.github.io/hb21exhibition-h5/src/img/introduction.png',
-'https://oiooiiio.github.io/hb21exhibition-h5/src/img/slide.png',])
+'https://oiooiiio.github.io/hb21exhibition-h5/src/img/slide.png',
+'https://oiooiiio.github.io/hb21exhibition-h5/src/img/tip.png'])
 window.onload = function(){
     document.getElementById('load').setAttribute('id','load-end');
     preloadimages(['https://oiooiiio.github.io/hb21exhibition-h5/src/img1/slid-ud.png',

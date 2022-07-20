@@ -1,5 +1,5 @@
 var page1_text = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div id='tittle-img' class='cover-indent'></div> <div class='next-ico-unity next-ico-border cover-next'><div class='next-ico-arrow-unity next-ico-arrow cover-next'></div></div> <div id='enter-img' class='cover-next'></div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> </div>"
-var page2_text = "<div id='catalog' class='cover-indent fade-in'> <div class='catalog-right-block'> <div class='catalog-right-active' id='introduction-text'></div> <div class='catalog-right-active' id='competition-situation'></div> <div class='catalog-right-active' id='award'></div> </div> <div class='catalog-left-block'> <div class='catalog-left-active' id='first-prize'></div> <div class='catalog-left-active' id='second-prize'></div> <div class='catalog-left-active' id='third-prize'></div> </div> <div class='catalog-left-block'> <div class='catalog-left' id='catalog-left1'></div> <div class='catalog-left' id='catalog-left2'></div> <div class='catalog-left' id='catalog-left3'></div> </div> <div class='catalog-right-block'> <div class='catalog-right' id='catalog-right1'></div> <div class='catalog-right' id='catalog-right2'></div> <div class='catalog-right' id='catalog-right3'></div> </div> </div> <div id='cover-part1' class='fade-in'> <div class='catalog-indent'><div id='catalog-text-img1' class='tittle-part1-left-indent'></div><div id='catalog-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='back-to-cover-indent next-ico-unity next-ico-border-pre back-to-cover'> <div class='next-ico-arrow-unity next-ico-arrow-pre back-to-cover'></div> </div> <div id='tittle-img' class='catalog-indent'></div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='catalog-indent'></div> </div>"
+var page2_text = "<div id='tip'><div></div></div><div id='catalog' class='cover-indent fade-in'> <div class='catalog-right-block'> <div class='catalog-right-active' id='introduction-text'></div> <div class='catalog-right-active' id='competition-situation'></div> <div class='catalog-right-active' id='award'></div> </div> <div class='catalog-left-block'> <div class='catalog-left-active' id='first-prize'></div> <div class='catalog-left-active' id='second-prize'></div> <div class='catalog-left-active' id='third-prize'></div> </div> <div class='catalog-left-block'> <div class='catalog-left' id='catalog-left1'></div> <div class='catalog-left' id='catalog-left2'></div> <div class='catalog-left' id='catalog-left3'></div> </div> <div class='catalog-right-block'> <div class='catalog-right' id='catalog-right1'></div> <div class='catalog-right' id='catalog-right2'></div> <div class='catalog-right' id='catalog-right3'></div> </div> </div> <div id='cover-part1' class='fade-in'> <div class='catalog-indent'><div id='catalog-text-img1' class='tittle-part1-left-indent'></div><div id='catalog-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='back-to-cover-indent next-ico-unity next-ico-border-pre back-to-cover'> <div class='next-ico-arrow-unity next-ico-arrow-pre back-to-cover'></div> </div> <div id='tittle-img' class='catalog-indent'></div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='catalog-indent'></div> </div>"
 var page3_text = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'><div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div></div> <div id='tittle-img-min' class='cover-indent'></div> <div id='introduction-img'></div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> </div>"
 var chart_page1_text = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'> <div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div> </div> <div id='tittle-img-min' class='cover-indent'></div> <div class='chart-text' id='cpt-chart-text'></div> <div id='chart-show'> <div id='cpt-chart' class='chart'></div> </div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div> </div>"
 var chart_page2_text = "<div id='cover-part1' class='fade-in'> <div class='cover-indent'><div id='tittle-bar-img' class='tittle-part1-left-indent'></div></div> <div id='tittle-text-img'><div id='tittle-text-img1' class='tittle-part1-left-indent'></div><div id='tittle-text-img2' class='tittle-part1-left-indent'></div></div> </div> <div id='cover-part2' class='fade-in'> <div class='cover-indent next-ico-unity next-ico-border-pre cover-pre'> <div class='cover-indent next-ico-arrow-unity next-ico-arrow-pre cover-pre'></div> </div> <div id='tittle-img-min' class='cover-indent'></div> <div class='chart-text' id='awa-chart-text'></div> <div id='chart-show'> <div id='awa-chart' class='chart'></div> <div id='map-chart' class='chart'></div> </div> </div> <div id='cover-part3' class='fade-in'> <div id='tittle-label-img' class='cover-indent'></div><div id='slide-ico'></div> </div>"
@@ -49,6 +49,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('introduction-text').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
     document.getElementById('catalog-right2').addEventListener('click',function(){
         for(var i=0;i<3;i++){
@@ -58,6 +59,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('competition-situation').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
     document.getElementById('catalog-right3').addEventListener('click',function(){
         for(var i=0;i<3;i++){
@@ -67,6 +69,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('award').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
     document.getElementById('catalog-left1').addEventListener('click',function(){
         for(var i=0;i<3;i++){
@@ -76,6 +79,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('first-prize').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
     document.getElementById('catalog-left2').addEventListener('click',function(){
         for(var i=0;i<3;i++){
@@ -85,6 +89,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('second-prize').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
     document.getElementById('catalog-left3').addEventListener('click',function(){
         for(var i=0;i<3;i++){
@@ -94,6 +99,7 @@ var page2_click = function(){
             document.getElementsByClassName('catalog-left-active')[i].removeAttribute('style');
         }
         document.getElementById('third-prize').setAttribute('style','visibility: visible;')
+        document.getElementById('tip').setAttribute('style','visibility: visible;')
     })
 }
 // 目录页返回首页
